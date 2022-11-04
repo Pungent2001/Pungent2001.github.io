@@ -1,0 +1,36 @@
+.content {display:box;max-width: 1024px;margin: 0 auto; font-family: "Segoe UI";text-align:center;}
+ul {
+    list-style-image: url("fish_icon_24.png")
+}
+h1 {
+    width: 627px;
+    color: #a4a400;
+    border-radius: 25px;
+    padding: 20px;background: #F0F0F0;
+    text-align:center;
+    border: 2px solid #73ad21
+}
+h4 {
+    width: 400px;
+    color: #a4a400;
+    border-radius: 25px;
+    padding: 20px;
+    background: #F0F0F0;text-align:center;
+    border: 2px solid #73ad21
+    }
+body {
+    background-image: url("silverware.jpg");
+    background-repeat:unset
+}
+img {
+    border-radius: 50%;
+}
+.comment{
+    background-color: #ffffa8;
+}
+.details-wrapper div {
+    flex: 1;
+    padding: 0.5em;/* add some padding ?*/
+    text-align: center;
+    border-right: 2px solid rgb(122, 202, 76);
+}

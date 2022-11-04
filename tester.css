@@ -1,0 +1,33 @@
+.details-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(185, 79, 79);
+    margin-bottom:3px;
+  }
+  
+  .details-wrapper div {
+    flex: 1;
+    padding: 0.5em;/* add some padding ?*/
+    text-align: center;
+    border-right: 2px solid rgb(40, 78, 202);
+  }
+  
+  .details-wrapper div:last-child {
+    border: none; /* remove border ? */
+  }
+  
+  .details-wrapper span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    font-size: 24px;
+    color: #000;
+  }
+  
+  .details-wrapper p {
+    font-size: 16px;
+    color: #000;
+  }
