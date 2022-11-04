@@ -1,5 +1,14 @@
-.content {display:box;max-width: 1024px;margin: 0 auto; font-family: "Segoe UI";text-align:center;}
-ul {
+.content {display:flex;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: "Segoe UI";
+    text-align:center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+hr {width: 100%;}
+    ul {
     list-style-image: url("fish_icon_24.png")
 }
 h1 {
@@ -28,9 +37,15 @@ img {
 .comment{
     background-color: #ffffa8;
 }
-.details-wrapper div {
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom:3px;
     flex: 1;
-    padding: 0.5em;/* add some padding ?*/
+    padding: 0.5em;
     text-align: center;
-    border-right: 2px solid rgb(122, 202, 76);
+    border-right: 5px solid rgb(124, 182, 86);
 }
